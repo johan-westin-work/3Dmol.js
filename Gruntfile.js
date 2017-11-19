@@ -44,25 +44,25 @@ module.exports = function(grunt) {
             
             big : {
                 src : ['js/jquery-3.2.1.js','js/mmtf.js','js/pako_inflate.js','js/netcdfjs.js','build/3Dmol-pre.js'],
-                dest : 'build/3Dmol.js'
+                dest : 'release/3Dmol.js'
             },
             
             bignojquery : {
                 src : ['js/mmtf.js','js/pako_inflate.js','js/netcdfjs.js','build/3Dmol-pre.js'],
-                dest : 'build/3Dmol-nojquery.js'
+                dest : 'release/3Dmol-nojquery.js'
             },
             
             closure : {
                 src : ['build/jquery-3.2.1-min-pre.js','build/mmtf-min-pre.js','build/pako_inflate-min-pre.js','build/netcdfjs-min-pre.js','build/3Dmol-min-pre.js'],
-                dest : 'build/3Dmol-min.js'
+                dest : 'release/3Dmol-min.js'
             },
             closurenojquery: {
                 src : ['build/mmtf-min-pre.js','build/pako_inflate-min-pre.js','build/netcdfjs-min-pre.js','build/3Dmol-min-pre.js'],
-                dest : 'build/3Dmol-nojquery-min.js'
+                dest : 'release/3Dmol-nojquery-min.js'
             }, 
             append : {
                 src : ['build/3Dmol-min.js', 'append.js'],
-                dest : 'build/3Dmol-min.js'
+                dest : 'release/3Dmol-min.js'
             }
         },
         
