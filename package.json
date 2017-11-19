@@ -1,6 +1,6 @@
 {
   "name": "3dmol",
-  "version": "1.3.0-p1",
+  "version": "1.3.0-p2",
   "description": "Object oriented Javascript molecular visualization library",
   "repository": {
     "type": "git",
@@ -23,10 +23,10 @@
   },
   "scripts": {
     "build": "grunt build",
-    "prepublish": "npm uninstall grunt && rm -rf node_modules/grunt && npm install grunt && npm run build"
+    "prepublish": "npm run build"
   },
   "license": "BSD-3-Clause",
-  "main": "build/3Dmol-nojquery.js",
+  "main": "release/3Dmol-nojquery.js",
   "dependencies": {
     "grunt": "^1.0.1"
   }
